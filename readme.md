@@ -27,8 +27,8 @@ cmake
 
 | config | mnist | Note |
 | ------ | ----- | ---- |
-| O1 CPU | 37.1  |      |
-| O2 CPU | 36.7  |      |
+| O0 CPU | 36.6  |      |
+| O1 CPU | 31.1  |      |
 
 
 ## Author
