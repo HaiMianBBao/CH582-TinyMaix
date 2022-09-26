@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.15)
+
+message("ch58x tinymaix start")
+
+find_package(xxx_sdk REQUIRED HINTS $ENV{SDK_BASE})
+
+sdk_add_compile_definitions(-DCH58x_DEBUG=1)
+sdk_set_main_file(main.c)
+
+project(ch58x_tinymaix)
+
+message("ch58x tinymaix end")
